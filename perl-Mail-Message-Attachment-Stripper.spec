@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Message-Attachment-Stripper
-Summary:	Mail::Message::Attachment::Stripper - Strip the attachments from a mail
-#Summary(pl):	
+Summary:	Mail::Message::Attachment::Stripper - strip the attachments from a mail
+Summary(pl):	Mail::Message::Attachment::Stripper - wycinanie za³±czników z poczty
 Name:		perl-Mail-Message-Attachment-Stripper
 Version:	1.0
 Release:	1
@@ -23,8 +23,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Given a Mail::Message object, detach all attachments from the
-message. These are then available separately.
+Given a Mail::Message object, detach all attachments from the message.
+These are then available separately.
 
 # %description -l pl
 # TODO
