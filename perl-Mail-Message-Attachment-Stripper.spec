@@ -26,8 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Given a Mail::Message object, detach all attachments from the message.
 These are then available separately.
 
-# %description -l pl
-# TODO
+%description -l pl
+Po przekazaniu obiektu Mail::Message, klasa od³±cza z listu wszystkie
+za³±czniki. S± one pó¼niej dostêpne osobno.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
