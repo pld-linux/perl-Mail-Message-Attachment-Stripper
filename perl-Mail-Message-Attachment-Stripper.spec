@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	Message-Attachment-Stripper
 Summary:	Mail::Message::Attachment::Stripper - strip the attachments from a mail
-Summary(pl):	Mail::Message::Attachment::Stripper - wycinanie za³±czników z poczty
+Summary(pl.UTF-8):   Mail::Message::Attachment::Stripper - wycinanie zaÅ‚Ä…cznikÃ³w z poczty
 Name:		perl-Mail-Message-Attachment-Stripper
 Version:	1.0
 Release:	1
@@ -26,9 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Given a Mail::Message object, detach all attachments from the message.
 These are then available separately.
 
-%description -l pl
-Po przekazaniu obiektu Mail::Message, klasa od³±cza z listu wszystkie
-za³±czniki. S± one pó¼niej dostêpne osobno.
+%description -l pl.UTF-8
+Po przekazaniu obiektu Mail::Message, klasa odÅ‚Ä…cza z listu wszystkie
+zaÅ‚Ä…czniki. SÄ… one pÃ³Åºniej dostÄ™pne osobno.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
