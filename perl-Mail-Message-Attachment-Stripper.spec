@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	Message-Attachment-Stripper
 Summary:	Mail::Message::Attachment::Stripper - strip the attachments from a mail
-Summary(pl.UTF-8):   Mail::Message::Attachment::Stripper - wycinanie załączników z poczty
+Summary(pl.UTF-8):	Mail::Message::Attachment::Stripper - wycinanie załączników z poczty
 Name:		perl-Mail-Message-Attachment-Stripper
 Version:	1.0
 Release:	1
