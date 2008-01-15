@@ -9,7 +9,7 @@ Summary:	Mail::Message::Attachment::Stripper - strip the attachments from a mail
 Summary(pl.UTF-8):	Mail::Message::Attachment::Stripper - wycinanie załączników z poczty
 Name:		perl-Mail-Message-Attachment-Stripper
 Version:	1.0
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -52,5 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Mail/Message/Attachment
 %{perl_vendorlib}/Mail/Message/Attachment/*.pm
 %{_mandir}/man3/*
