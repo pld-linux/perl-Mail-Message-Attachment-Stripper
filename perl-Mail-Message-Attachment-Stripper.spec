@@ -10,10 +10,11 @@ Summary(pl.UTF-8):	Mail::Message::Attachment::Stripper - wycinanie załącznikó
 Name:		perl-Mail-Message-Attachment-Stripper
 Version:	1.0
 Release:	2
-License:	unknown
+License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Mail/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b61fe2db5261dbd6757899bc5deb849c
+URL:		http://search.cpan.org/dist/Mail-Message-Attachment-Stripper/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
